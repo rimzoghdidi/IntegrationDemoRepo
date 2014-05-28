@@ -2,54 +2,13 @@
   xmlns:f="http://java.sun.com/jsf/core" xmlns:ui="http://java.sun.com/jsf/facelets"
   xmlns:p="http://primefaces.org/ui">
   
- 	
- <h:form id="panelForm" styleClass="bordered">
+<h:form>
+
+<p:inputText value=""  />
 
 
-      <div class="form-group">
-        <p:outputLabel for="commentid" value="Comment Id" />
 
-        <div class="row">
-          <div class="col-md-6">
-            <p:inputText id="commentid" value="#{commentBean.idCOmment}" required="false"
-              label="Comment Id" 
-              styleClass="form-control input-sm" />
-            <p:message for="commentid" />
-          </div>
-        </div>
-      </div>
-      </h:form>
-      
-<!-- <ui:define name="panelBody">
-
-    <h:form id="panelForm" styleClass="bordered">
-
-
-      <div class="form-group">
-       
-        <div class="row">
-          <div class="col-md-6">
-            <p:inputText id="number1" value="" required="false"
-              label="number1" 
-              styleClass="form-control input-sm" />
-            <p:message for="number1" />
-          </div>
-        </div>
-      </div>
-      
-        <div class="form-group">
-       
-        <div class="row">
-          <div class="col-md-6">
-            <p:inputText id="number2" value="" required="false"
-              label="number2" 
-              styleClass="form-control input-sm" />
-            <p:message for="number2" />
-          </div>
-        </div>
-      </div>
-     </h:form>
-     </ui:define> -->
+</h:form>
      </ui:composition> 
      
       
