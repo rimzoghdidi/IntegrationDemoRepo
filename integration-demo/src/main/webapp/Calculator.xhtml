@@ -1,14 +1,16 @@
+
 <ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html"
   xmlns:f="http://java.sun.com/jsf/core" xmlns:ui="http://java.sun.com/jsf/facelets"
   xmlns:p="http://primefaces.org/ui">
-  
-<h:form>
+<h5> Basic Calculator</h5>
+<input />
+<select>
+<f:selectItem itemLabel="Option 1" itemValue="1" />
 
-<p:inputText value=""  />
+<f:selectItem itemLabel="Option 2" itemValue="2" />
 
-
-
-</h:form>
-     </ui:composition> 
-     
-      
+<f:selectItem itemLabel="Option 3" itemValue="3" />
+</select>
+<input />
+<Button value="=" />
+</ui:composition>
